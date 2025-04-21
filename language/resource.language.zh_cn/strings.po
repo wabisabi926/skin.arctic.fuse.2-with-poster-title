@@ -150,7 +150,7 @@ msgstr "编辑搜索窗口中使用的小部件。"
 
 msgctxt "#31028"
 msgid "Outline"
-msgstr "概要"
+msgstr "概述"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31029"
