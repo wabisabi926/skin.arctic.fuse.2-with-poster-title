@@ -481,7 +481,7 @@ msgstr "自定义评分"
 #: /1080i/SkinSettings.xml /1080i/Includes_Items.xml
 msgctxt "#31098"
 msgid "Gallery"
-msgstr "相册"
+msgstr "图库"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31099"
@@ -2582,7 +2582,7 @@ msgstr "自定义视图类型"
 #: /1080i/Includes_Items.xml
 msgctxt "#31539"
 msgid "Use online gallery"
-msgstr "使用在线专辑"
+msgstr "使用在线图库"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31540"
