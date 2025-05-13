@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="1151">
     <zorder>0</zorder>
-    <visible>Player.ShowInfo | Window.IsActive(musicosd)</visible>
+    <visible>Player.HasAudio | Window.IsActive(musicosd)</visible>
     <visible>Window.IsActive(MusicVisualisation.xml)</visible>
     <animation effect="fade" start="0" end="100" time="300">WindowOpen</animation>
     <animation effect="fade" end="0" start="100" time="300">WindowClose</animation>
@@ -18,9 +18,39 @@
                 <bottom>320</bottom>
                 <left>view_pad</left>
                 <visible>!Window.IsVisible(1142)</visible>
+			<control type="group">
+			 
+				<left>0</left>
+				<top>0</top>
+				<width>220</width>
+				<height>220</height>
+				
+				<visible>!String.IsEmpty(Player.Icon)</visible>
+				<visible>[Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]</visible>
+				    <animation effect="zoom" start="0,0,220,220" end="0,-328,320,320" time="400" tween="cubic" easing="out" reversible="false" condition="[Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
+					<animation effect="slide" delay="100" start="0,0" end="138,0" time="1500" tween="cubic" easing="inout" reversible="false" condition="[Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
+                    <animation effect="zoom" end="0,0,220,220" start="0,-328,320,320" time="400" tween="cubic" easing="out" reversible="false" condition="![Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
+				<animation effect="rotate" start="0" end="-360" center="auto" time="8000" loop="true" reversible="false" condition="Player.Playing">conditional</animation>
+			<control type="image">
+			<depth>DepthOSDPopout</depth>
+				  <texture background="true">$INFO[Player.Art(discart)]</texture>
+                  </control>
+				  <control type="image" id="1">
+				  <depth>DepthOSDPopout</depth>
+				  <visible>String.IsEmpty(Player.Art(discart))</visible>
+						<aspectratio scalediffuse="false" aligny="top">stretch</aspectratio>
+						<texture background="true" diffuse="diffuse/circle/discart.png">$INFO[Player.Art(thumb)]</texture>
+					</control>
+					<control type="image" id="1">
+					<depth>DepthOSDPopout</depth>
+					    <visible>String.IsEmpty(Player.Art(discart))</visible>
+						<texture>diffuse/circle/discart_overlay.png</texture>
+						<visible>!String.IsEmpty(Player.Art(thumb))</visible>
+					</control>
+					</control>
                 <control type="group">
-                    <animation effect="zoom" start="0,0,280,280" end="0,-400,480,480" time="400" tween="cubic" easing="out" reversible="false" condition="[Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
-                    <animation effect="zoom" end="0,0,280,280" start="0,-400,480,480" time="400" tween="cubic" easing="out" reversible="false" condition="![Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
+                    <animation effect="zoom" start="0,0,280,280" end="0,-350,360,360" time="400" tween="cubic" easing="out" reversible="false" condition="[Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
+                    <animation effect="zoom" end="0,0,280,280" start="0,-350,360,360" time="400" tween="cubic" easing="out" reversible="false" condition="![Window.IsVisible(script-cu-lrclyrics-main.xml) | [!String.IsEmpty(Window(Home).Property(OSDArtistDetails)) + !Window.IsVisible(1142)]]">Conditional</animation>
                     <include content="Object_BigPoster">
                         <param name="diffuse">diffuse/square_w460_h460.png</param>
                         <param name="icon">$INFO[Player.Icon]</param>
