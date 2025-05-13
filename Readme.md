@@ -7,3 +7,6 @@ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisc
 1.基于原版导火线2修正简体中文；
 
 2.海报墙添加标题；
+
+3.美化音乐播放界面，增加播放列表选项
+
