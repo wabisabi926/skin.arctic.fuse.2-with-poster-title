@@ -80,9 +80,9 @@
 					
 					<!-- Video Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -90,7 +90,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32054][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>37</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -237,9 +237,9 @@
 					
 					<!-- More Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -247,7 +247,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32007][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>37</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -261,9 +261,9 @@
 					</control>
 					<control type="label">
 						<left>211</left>
-						<top>20</top>
+						<top>21</top>
 						<label>$VAR[VS10ModeVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 					</control>
 					
 					<!-- VS10 status -->
@@ -372,7 +372,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -442,9 +442,9 @@
 					
 					<!-- System Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -679,9 +679,9 @@
 					
 					<!-- Audio Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -839,7 +839,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -847,7 +847,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32037][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>32</left>
+						<left>37</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -940,9 +940,9 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>140</top>
+						<top>141</top>
 						<label>$VAR[RPUPresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					
@@ -955,9 +955,9 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>170</top>
+						<top>171</top>
 						<label>$VAR[BLPresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					
@@ -970,16 +970,16 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>200</top>
+						<top>201</top>
 						<label>$VAR[ELPresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					<control type="label">
 						<left>410</left>
-						<top>200</top>
+						<top>201</top>
 						<label>$VAR[ELSourcePresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.el.present),Player.Process(video.dovi.el.present))</visible>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.profile),0)</visible>
@@ -1001,18 +1001,18 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>230</top>
+						<top>231</top>
 						<label>$VAR[DVELVar1]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 						<visible>!String.Contains(Player.Process(video.dovi.el.type),minimum)</visible>
 						<visible>!String.Contains(Player.Process(video.dovi.el.type),full)</visible>
 					</control>
 					<control type="label">
 						<left>410</left>
-						<top>230</top>
+						<top>231</top>
 						<label>$VAR[ELSourcePresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.el.type),Player.Process(video.dovi.el.type))</visible>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.profile),0)</visible>
 					</control>
@@ -1029,7 +1029,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -1037,7 +1037,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32038][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>40</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -1204,7 +1204,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -1212,7 +1212,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32038][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>40</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -1386,18 +1386,18 @@
 					<!-- Arrows: Left to right with line icon -->
 					<control type="label">
 						<left>483</left>
-						<top>201</top>
+						<top>202</top>
 						<label></label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					<!-- Arrows: Top to bottom with line icon -->
 					<control type="label">
 						<left>528</left>
-						<top>215</top>
+						<top>216</top>
 						<angle>90</angle>
 						<label></label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 				</control>
@@ -1439,7 +1439,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -1447,7 +1447,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32054][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>37</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -1594,9 +1594,9 @@
 					
 					<!-- More Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -1604,7 +1604,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32007][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>37</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -1618,9 +1618,9 @@
 					</control>
 					<control type="label">
 						<left>211</left>
-						<top>20</top>
+						<top>21</top>
 						<label>$VAR[VS10ModeVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 					</control>
 					
 					<!-- VS10 status -->
@@ -1729,7 +1729,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -1799,9 +1799,9 @@
 					
 					<!-- System Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -2036,9 +2036,9 @@
 					
 					<!-- Audio Icon -->
 					<control type="label">
-						<label></label>
+						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -2196,7 +2196,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -2204,7 +2204,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32037][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>32</left>
+						<left>37</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -2297,9 +2297,9 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>140</top>
+						<top>141</top>
 						<label>$VAR[RPUPresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					
@@ -2312,9 +2312,9 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>170</top>
+						<top>171</top>
 						<label>$VAR[BLPresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					
@@ -2327,16 +2327,16 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>200</top>
+						<top>201</top>
 						<label>$VAR[ELPresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					<control type="label">
 						<left>410</left>
-						<top>200</top>
+						<top>201</top>
 						<label>$VAR[ELSourcePresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.el.present),Player.Process(video.dovi.el.present))</visible>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.profile),0)</visible>
@@ -2358,18 +2358,18 @@
 					</control>
 					<control type="label">
 						<left>341</left>
-						<top>230</top>
+						<top>231</top>
 						<label>$VAR[DVELVar1]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 						<visible>!String.Contains(Player.Process(video.dovi.el.type),minimum)</visible>
 						<visible>!String.Contains(Player.Process(video.dovi.el.type),full)</visible>
 					</control>
 					<control type="label">
 						<left>410</left>
-						<top>230</top>
+						<top>231</top>
 						<label>$VAR[ELSourcePresentVar]</label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.el.type),Player.Process(video.dovi.el.type))</visible>
 						<visible>!String.IsEqual(Player.Process(video.source.dovi.profile),0)</visible>
 					</control>
@@ -2386,7 +2386,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -2394,7 +2394,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32038][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>40</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -2561,7 +2561,7 @@
 					<control type="label">
 						<label></label>
 						<top>-25</top>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
 					
@@ -2569,7 +2569,7 @@
 					<control type="label">
 						<label>[B][UPPERCASE]$LOCALIZE[32038][/UPPERCASE][/B]</label>
 						<top>-25</top>
-						<left>35</left>
+						<left>40</left>
 						<font>font_tiny</font>
 						<textcolor>dialog_fg_100</textcolor>
 					</control>
@@ -2743,18 +2743,18 @@
 					<!-- Arrows: Left to right with line icon -->
 					<control type="label">
 						<left>483</left>
-						<top>201</top>
+						<top>202</top>
 						<label></label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 					<!-- Arrows: Top to bottom with line icon -->
 					<control type="label">
 						<left>528</left>
-						<top>215</top>
+						<top>216</top>
 						<angle>90</angle>
 						<label></label>
-						<font>font_tiny_iconic</font>
+						<font>font_tiny_iconic_regular</font>
 						<textcolor>dialog_fg_90</textcolor>
 					</control>
 				</control>
