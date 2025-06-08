@@ -45,7 +45,7 @@
 				<height>780</height>
 				<left>10</left>
 				<include content="OSD_Dialog_Background_Blur">
-					<param name="diffuse">diffuse/dialog_w1280_h740.png</param>
+					<param name="diffuse">diffuse/dialog_w1840_h1000.png</param>
 				</include>
 				<include content="Object_MenuHeader">
 					<param name="label">[CAPITALIZE]$LOCALIZE[10116][/CAPITALIZE]</param>
