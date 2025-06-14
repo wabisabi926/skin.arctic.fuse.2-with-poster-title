@@ -2823,3 +2823,8 @@ msgstr "自定义快捷方式"
 msgctxt "#31587"
 msgid "Flip"
 msgstr "翻转"
+
+#: /1080i/Includes_Info.xml
+msgctxt "#31588"
+msgid "Updating ratings"
+msgstr "更新评分"
