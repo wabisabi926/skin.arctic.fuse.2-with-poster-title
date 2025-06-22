@@ -682,7 +682,7 @@ msgstr "迈阿密电子风色"
 
 msgctxt "#31141"
 msgid "Plain Monochrome"
-msgstr "单色"
+msgstr "纯单色"
 
 msgctxt "#31142"
 msgid "Total Duration"
