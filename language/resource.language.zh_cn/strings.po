@@ -2828,3 +2828,28 @@ msgstr "翻转"
 msgctxt "#31588"
 msgid "Updating ratings"
 msgstr "更新评分"
+
+#: /1080i/Includes_DialogManage.xml
+msgctxt "#31589"
+msgid "Apply new settings"
+msgstr "应用新设置"
+
+#: /1080i/Includes_DialogManage.xml
+msgctxt "#31590"
+msgid "Changes made to settings have not been applied."
+msgstr "所做的设置更改尚未应用。"
+
+#: /1080i/Includes_DialogManage.xml
+msgctxt "#31591"
+msgid "Pressing close exits the dialog without applying changes."
+msgstr "按“关闭”按钮将退出对话框而不应用更改。"
+
+#: /1080i/Includes_Dialogs.xml
+msgctxt "#31592"
+msgid "Press right for options menu"
+msgstr "按“右键”进入选项菜单"
+
+#: /1080i/Includes_DialogManage.xml
+msgctxt "#31593"
+msgid "Apply your changes?"
+msgstr "应用您的更改？"
