@@ -131,7 +131,7 @@ msgstr "加载"
 
 msgctxt "#31024"
 msgid "Critics Consensus"
-msgstr "影评人综合评分"
+msgstr "影评人共识"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31025"
@@ -187,7 +187,7 @@ msgstr "制作人员"
 #: /1080i/SkinSettings.xml
 msgctxt "#31036"
 msgid "Mouse-friendly widgets"
-msgstr "对鼠标友好的小部件"
+msgstr "鼠标友好型小部件"
 
 #: /1080i/Includes_Shortcuts_Window.xml
 msgctxt "#31037"
