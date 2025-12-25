@@ -629,7 +629,7 @@ msgstr "趋势"
 
 msgctxt "#31129"
 msgid "Up next in"
-msgstr "接下来"
+msgstr "下个播放"
 
 msgctxt "#31130"
 msgid "seconds"
@@ -944,7 +944,7 @@ msgstr "亮"
 
 msgctxt "#31196"
 msgid "Up Next"
-msgstr "接下来"
+msgstr "下个播放"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31197"
