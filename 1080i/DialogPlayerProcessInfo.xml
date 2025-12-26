@@ -23,7 +23,7 @@
                     <param name="windowopen_delay">200</param>
                 </include>
                 <include content="Object_Height" condition="VideoPlayer.Content(livetv)">
-                    <param name="height">752</param>
+                    <param name="height">740</param>
                 </include>
                 <include>OSD_Stream_Selector_Divider</include>
                 <height>522</height>
