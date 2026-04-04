@@ -651,9 +651,10 @@
             <param name="id">004</param>
             <label>$LOCALIZE[31191]</label>
             <label2>$VAR[Label_Setting_OptionalInfoLine]</label2>
-            <onclick condition="!Skin.String(InfoLine.Optional,Genre) + !Skin.String(InfoLine.Optional,Ends)">Skin.SetString(InfoLine.Optional,Genre)</onclick>
+            <onclick condition="!Skin.String(InfoLine.Optional,Genre) + !Skin.String(InfoLine.Optional,Ends) + !Skin.String(InfoLine.Optional,Studio)">Skin.SetString(InfoLine.Optional,Genre)</onclick>
             <onclick condition="Skin.String(InfoLine.Optional,Genre)">Skin.SetString(InfoLine.Optional,Ends)</onclick>
-            <onclick condition="Skin.String(InfoLine.Optional,Ends)">Skin.Reset(InfoLine.Optional)</onclick>
+            <onclick condition="Skin.String(InfoLine.Optional,Ends)">Skin.SetString(InfoLine.Optional,Studio)</onclick>
+            <onclick condition="Skin.String(InfoLine.Optional,Studio)">Skin.Reset(InfoLine.Optional)</onclick>
         </include>
 
         <include content="Settings_Label" description="Ratings">
@@ -832,11 +833,22 @@
             <selected>Skin.HasSetting(HolidayMode.Australia)</selected>
             <visible>Skin.HasSetting(EnableHolidayTheme)</visible>
         </include>
-        <include content="Settings_Button" description="Holiday Theme: Additional Icons">
+        <include content="Settings_Button" description="Holiday Theme: Halloween">
             <param name="dialog">false</param>
             <param name="window">skinsettings</param>
             <param name="baseid">$PARAM[baseid]</param>
             <param name="id">014</param>
+            <param name="control">radiobutton</param>
+            <label>Halloween</label>
+            <onclick>Skin.ToggleSetting(HolidayMode.Halloween)</onclick>
+            <selected>Skin.HasSetting(HolidayMode.Halloween)</selected>
+            <visible>Skin.HasSetting(EnableHolidayTheme)</visible>
+        </include>
+        <include content="Settings_Button" description="Holiday Theme: Additional Icons">
+            <param name="dialog">false</param>
+            <param name="window">skinsettings</param>
+            <param name="baseid">$PARAM[baseid]</param>
+            <param name="id">015</param>
             <param name="control">radiobutton</param>
             <label>$LOCALIZE[31596]</label>
             <onclick>Skin.ToggleSetting(Disable.HolidayTheme.AdditionalIcons)</onclick>
