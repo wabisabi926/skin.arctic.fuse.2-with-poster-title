@@ -3022,7 +3022,7 @@ msgid "Dolby Vision"
 msgstr ""
 
 msgctxt "#31938"
-msgid "DV Levels Metadata"
+msgid "L5 Offsets (detected)"
 msgstr ""
 
 msgctxt "#31939"
