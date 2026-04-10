@@ -3216,3 +3216,19 @@ msgstr "Dekodierung"
 msgctxt "#31988"
 msgid "System"
 msgstr "System"
+
+msgctxt "#31990"
+msgid "failed"
+msgstr "gescheitert"
+
+msgctxt "#31991"
+msgid "detected"
+msgstr "ermittelt"
+
+msgctxt "#31992"
+msgid "skipped"
+msgstr "übersprungen"
+
+msgctxt "#31993"
+msgid "running"
+msgstr "ermitteln"

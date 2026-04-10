@@ -3216,3 +3216,19 @@ msgstr ""
 msgctxt "#31988"
 msgid "System"
 msgstr ""
+
+msgctxt "#31990"
+msgid "failed"
+msgstr ""
+
+msgctxt "#31991"
+msgid "detected"
+msgstr ""
+
+msgctxt "#31992"
+msgid "skipped"
+msgstr ""
+
+msgctxt "#31993"
+msgid "running"
+msgstr ""
