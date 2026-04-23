@@ -2871,7 +2871,7 @@ msgstr "Bestätigung"
 
 msgctxt "#31900"
 msgid "Display mode"
-msgstr "Bildauflösung"
+msgstr "Displayauflösung"
 
 msgctxt "#31901"
 msgid "Video mode"
@@ -2886,12 +2886,12 @@ msgid "Mb/s"
 msgstr "Mb/s"
 
 msgctxt "#31904"
-msgid "Bit depth"
-msgstr "Bittiefe"
+msgid "Video bit depth"
+msgstr "Videofarbtiefe"
 
 msgctxt "#31905"
 msgid "Decoder"
-msgstr "Decoder"
+msgstr "Dekodierung"
 
 msgctxt "#31906"
 msgid "VS10 | VP mode"
@@ -2962,12 +2962,12 @@ msgid "Metadata"
 msgstr "Metadaten"
 
 msgctxt "#31923"
-msgid "Pixel format"
-msgstr "Pixelformat"
+msgid "Output format"
+msgstr "Ausgabeformat"
 
 msgctxt "#31924"
 msgid "Aspect ratio"
-msgstr "Verhältnis"
+msgstr "Seitenverhältnis"
 
 msgctxt "#31925"
 msgid "HDR10 MDL"
