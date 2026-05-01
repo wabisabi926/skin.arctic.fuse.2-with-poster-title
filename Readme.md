@@ -15,6 +15,8 @@ https://github.com/jurialmunkey/skin.arctic.fuse.3
 
 3.美化音乐播放界面，增加播放列表选项
 
+4.增加豆瓣评分，需要魔改版 tmdb 助手
+
 ![819204DFB9FF7511587AD56D5177B824](https://github.com/user-attachments/assets/c861b777-1e2b-40b0-9458-b3b118f47db7)
 ![7E80A8E37275E3DBDBA22DDA827B1626](https://github.com/user-attachments/assets/7a50da25-6b62-48ba-b4d7-fd57a401fe2a)
 ![465295FA0AF67DDE5461DF2A44178BE5](https://github.com/user-attachments/assets/e2a0638e-035a-4c3d-8cd6-315ef7c78cd3)
