@@ -613,6 +613,22 @@
         </definition>
     </include>
 
+    <include name="Info_RatingsLine_Object_Douban">
+        <param name="is_player">false</param>
+        <definition>
+            <include content="Info_RatingsLine_Object" condition="![$PARAM[is_player]]">
+                <param name="icon">flags/$VAR[Info_RatingsLine_Object_Style]/ratings/douban.png</param>
+                <param name="label">$INFO[Window(Home).Property(TMDbHelper.ListItem.Douban_Rating)]</param>
+                <param name="visible">[$PARAM[visible]] + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Douban_Rating))</param>
+            </include>
+            <include content="Info_RatingsLine_Object" condition="$PARAM[is_player]">
+                <param name="icon">flags/$VAR[Info_RatingsLine_Object_Style]/ratings/douban.png</param>
+                <param name="label">$INFO[Window(Home).Property(TMDbHelper.Player.Douban_Rating)]</param>
+                <param name="visible">[$PARAM[visible]] + !String.IsEmpty(Window(Home).Property(TMDbHelper.Player.Douban_Rating))</param>
+            </include>
+        </definition>
+    </include>
+
     <include name="Info_RatingsLine_Object_Awards">
         <param name="is_player">false</param>
         <definition>
@@ -660,6 +676,11 @@
 
     <include name="Info_RatingsLine_Items">
         <include content="Info_RatingsLine_Object_Kodi" condition="Skin.String(CustomRating.$PARAM[content].$PARAM[item],Kodi)">
+            <param name="visible">$PARAM[visible]</param>
+            <param name="container">$PARAM[container]</param>
+            <param name="is_player">$PARAM[is_player]</param>
+        </include>
+        <include content="Info_RatingsLine_Object_Douban" condition="Skin.String(CustomRating.$PARAM[content].$PARAM[item],Douban)">
             <param name="visible">$PARAM[visible]</param>
             <param name="container">$PARAM[container]</param>
             <param name="is_player">$PARAM[is_player]</param>
