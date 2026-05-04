@@ -59,7 +59,8 @@
             "rule": "String.IsEqual(Window(Home).Property(Shortcuts.Groupings.Links),Links)"
         },
         {
-            "name": "Hubs",
+            "name": "分类中心",
+			"comment": "Hubs",
             "path": "grouping://shortcuts/links/hubs/",
             "icon": "special://skin/extras/icons/home.png",
             "link": "false",
@@ -67,7 +68,7 @@
         },
         {
             "name": "默认",
-	    "comment": "Default",
+	        "comment": "Default",
             "path": "grouping://shortcuts/default/",
             "icon": "special://skin/extras/icons/folder.png",
             "link": "false",
@@ -1198,98 +1199,98 @@
     "grouping://shortcuts/links/hubs/": [
         {
             "name": "主页",
-	    "comment": "Home",
+	        "comment": "Home",
             "path": "ActivateWindow(Home)",
             "icon": "special://skin/extras/icons/home.png",
             "link": "true"
         },
         {
             "name": "搜索",
-	    "comment": "Search",
+	        "comment": "Search",
             "path": "ActivateWindow(1185)",
             "icon": "special://skin/extras/icons/search.png",
             "link": "true"
         },
         {
             "name": "探索",
-	    "comment": "Discover",
+	        "comment": "Discover",
             "path": "ActivateWindow(1105)",
             "icon": "special://skin/extras/icons/binoculars.png",
             "link": "true"
         },
         {
             "name": "电影分类中心",
-	    "comment": "Movies Hub",
+	        "comment": "Movies Hub",
             "path": "ActivateWindow(1101)",
             "icon": "special://skin/extras/icons/film.png",
             "link": "true"
         },
         {
             "name": "电视剧分类中心",
-	    "comment": "TV Shows Hub",
+	        "comment": "TV Shows Hub",
             "path": "ActivateWindow(1102)",
             "icon": "special://skin/extras/icons/tv.png",
             "link": "true"
         },
         {
             "name": "音乐分类中心",
-	    "comment": "Music Hub",
+	        "comment": "Music Hub",
             "path": "ActivateWindow(1103)",
             "icon": "special://skin/extras/icons/songs.png",
             "link": "true"
         },
         {
             "name": "电视直播分类中心",
-	    "comment": "Live TV Hub",
+	        "comment": "Live TV Hub",
             "path": "ActivateWindow(1104)",
             "icon": "special://skin/extras/icons/livetv.png",
             "link": "true"
         },
         {
             "name": "Custom Hub 1106",
-	    "comment": "自定义分类中心 1106",
+	        "comment": "自定义分类中心 1106",
             "path": "ActivateWindow(1106)",
             "icon": "special://skin/extras/icons/diagram-project.png",
             "link": "true"
         },
         {
             "name": "Custom Hub 1107",
-	    "comment": "自定义分类中心 1107",
+	        "comment": "自定义分类中心 1107",
             "path": "ActivateWindow(1107)",
             "icon": "special://skin/extras/icons/diagram-project.png",
             "link": "true"
         },
         {
             "name": "Custom Hub 1108",
-	    "comment": "自定义分类中心 1108",
+	        "comment": "自定义分类中心 1108",
             "path": "ActivateWindow(1108)",
             "icon": "special://skin/extras/icons/diagram-project.png",
             "link": "true"
         },
         {
             "name": "Custom Hub 1109",
-	    "comment": "自定义分类中心 1109",
+	        "comment": "自定义分类中心 1109",
             "path": "ActivateWindow(1109)",
             "icon": "special://skin/extras/icons/diagram-project.png",
             "link": "true"
         },
         {
             "name": "Add-ons Hub",
-	    "comment": "插件分类中心",
+	        "comment": "插件分类中心",
             "path": "ActivateWindow(1132)",
             "icon": "special://skin/extras/icons/addon.png",
             "link": "true"
         },
         {
             "name": "Library Next Aired",
-	    "comment": "资料库 - 即将播出",
+	        "comment": "资料库 - 即将播出",
             "path": "ActivateWindow(1131)",
             "icon": "special://skin/extras/icons/book.png",
             "link": "true"
         },
         {
             "name": "Trakt Next Aired",
-	    "comment": "Trakt - 即将播出",
+	        "comment": "Trakt - 即将播出",
             "path": "ActivateWindow(1130)",
             "icon": "special://skin/extras/icons/calendar-day.png",
             "link": "true"
@@ -1369,7 +1370,7 @@
         {
             "icon": "special://skin/extras/icons/configure.png",
             "name": "配置 TMDbHelper",
-	    "comment": "Configure TMDbHelper",
+	        "comment": "Configure TMDbHelper",
             "path": "RunPlugin(plugin://plugin.video.themoviedb.helper/?info=dir_settings)",
             "link": "true"
         }
@@ -1377,14 +1378,14 @@
     "grouping://shortcuts/widgets/experimental/": [
         {
             "name": "天气",
-	    "comment": "Weather",
+	        "comment": "Weather",
             "path": "Weather",
             "icon": "special://skin/extras/icons/sun.png",
             "link": "true"
         },
         {
             "name": "自定义子菜单",
-	    "comment": "Custom Submenu",
+	        "comment": "Custom Submenu",
             "path": "Custom_Submenu",
             "icon": "special://skin/extras/icons/list-ol.png",
             "link": "true"
