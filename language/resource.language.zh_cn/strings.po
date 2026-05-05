@@ -91,7 +91,7 @@ msgstr "预置默认小组件集可从“预置”图标获得。"
 
 msgctxt "#31015"
 msgid "Order"
-msgstr "顺序"
+msgstr "排序"
 
 msgctxt "#31016"
 msgid "Sort by"
@@ -309,7 +309,7 @@ msgstr "用户评分"
 #: /shortcuts/template.xml
 msgctxt "#31062"
 msgid "Playlist order"
-msgstr "播放列表顺序"
+msgstr "播放列表排序"
 
 #: /shortcuts/template.xml
 msgctxt "#31063"
