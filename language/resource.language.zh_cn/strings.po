@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Arctic Fuse
-# Addon Name: skin.arctic.fuse
-# Addon Provider: jurialmunkey
+# Add于 Name: Arctic Fuse
+# Add于 Name: skin.arctic.fuse
+# Add于 Provider: jurialmunkey
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -602,7 +602,7 @@ msgstr "待看列表"
 #: /1080i/Includes_MediaFilter.xml
 msgctxt "#31123"
 msgid "On Deck"
-msgstr "即将播放"
+msgstr "即将观看"
 
 msgctxt "#31124"
 msgid "Indicator"
