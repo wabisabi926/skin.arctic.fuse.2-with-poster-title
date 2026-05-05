@@ -409,7 +409,7 @@ msgstr "墙方向"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31083"
 msgid "Combined"
-msgstr "混合"
+msgstr "组合"
 
 #: /1080i/Includes_Shortcuts_Window.xml
 msgctxt "#31084"
@@ -578,7 +578,7 @@ msgctxt "#31118"
 msgid "Expanded"
 msgstr "展开"
 
-# EOTF 是 Electro-Optical Transfer Function 的缩写。 EOTF 代表电光传递函数。这是 HDR（高动态范围）显示器中使用的术语，用于描述将数据转换为屏幕上特定亮度的操作。EOTF 是将电子信号转换为所需光信号的数学函数（即数字到模拟函数）。这与伽玛的不同之处在于，伽玛告诉显示器发射其最大亮度的一定百分比，而 EOTF 告诉它要产生多少尼特的亮度。
+# EOTF 是 Electro-Optical Transfer Functi于 的缩写。 EOTF 代表电光传递函数。这是 HDR（高动态范围）显示器中使用的术语，用于描述将数据转换为屏幕上特定亮度的操作。EOTF 是将电子信号转换为所需光信号的数学函数（即数字到模拟函数）。这与伽玛的不同之处在于，伽玛告诉显示器发射其最大亮度的一定百分比，而 EOTF 告诉它要产生多少尼特的亮度。
 #: /1080i/DialogPlayerProcessInfo.xml
 msgctxt "#31119"
 msgid "EOTF and Gamut"
@@ -601,7 +601,7 @@ msgstr "待看列表"
 # 下一个轮到的：非正式用法，指在一个系列中下一个要进行的。
 #: /1080i/Includes_MediaFilter.xml
 msgctxt "#31123"
-msgid "On Deck"
+msgid "开 Deck"
 msgstr "即将播放"
 
 msgctxt "#31124"
@@ -735,12 +735,12 @@ msgstr "搜索和选项"
 #: /1080i/DialogAddonSettings.xml
 msgctxt "#31152"
 msgid "Combined Square"
-msgstr "方形组合"
+msgstr "组合：方形"
 
 #: /1080i/DialogAddonSettings.xml
 msgctxt "#31153"
 msgid "Combined Landscape"
-msgstr "横向展示组合"
+msgstr "组合：横版"
 
 msgctxt "#31154"
 msgid "Misc options"
@@ -2377,7 +2377,7 @@ msgstr "最小化菜单"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31498"
 msgid "Released"
-msgstr "已发行"
+msgstr "已上映"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31499"
@@ -2602,7 +2602,7 @@ msgstr "上一集"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31543"
 msgid "Anticipated"
-msgstr "备受期待"
+msgstr "期待上映"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31544"
@@ -2696,7 +2696,7 @@ msgstr "墙：概要"
 
 #: /1080i/Includes_Views_Row.xml
 msgctxt "#31562"
-msgid "Overview Row"
+msgid "概况 Row"
 msgstr "行：概要"
 
 #: /1080i/Includes_Views_Row.xml
@@ -2777,7 +2777,7 @@ msgstr "OSD 小组件扩展信息"
 #: /1080i/Includes_SkinSettings.xml
 msgctxt "#31578"
 msgid "Expanded info landscape art"
-msgstr "扩展信息横向艺术图界面"
+msgstr "扩展信息横版艺术图界面"
 
 #: /1080i/Includes_ButtonMenu.xml
 msgctxt "#31579"
@@ -2787,7 +2787,7 @@ msgstr "上一屏"
 #: /1080i/Includes_Views_List.xml
 msgctxt "#31580"
 msgid "Combined List"
-msgstr "混合：列表"
+msgstr "组合：列表"
 
 #: /1080i/Includes_Views_List.xml
 msgctxt "#31581"
